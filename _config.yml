@@ -1,28 +1,40 @@
-name: causedriven
+layout_spectrum: 0.03829787
 favicon: null
-layout_spectrum: 0.11486831144429743
-typography_spectrum: 0.21292759920470417
-cta:
-  domain: null
-  bucket: null
-  version: null
+name: causedriven
+purpose: []
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
+cta:
+  version: null
+  bucket: null
+  domain: null
 color:
+  brandStrength: 0.9998035095632076
+  lightness: 0.6744681
+  saturation: 0.7276596
+  rhythmicContrast: 0.5404255
   brandColors:
     - '#B8B42D'
     - '#697A21'
     - '#FFFCE8'
     - '#3E363F'
     - '#DD403A'
-  brandStrength: 0.9998035095632076
-  lightness: 0.48205769318155944
-  saturation: 0.738681331044063
-  rhythmicContrast: 0.4965756561141461
-purpose: []
+typography_spectrum: 0.3191489
